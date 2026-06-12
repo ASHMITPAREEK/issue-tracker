@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+
+# SQLite databases
+*.db
+
+# Node / frontend
+node_modules/
+dist/
+playwright-report/
+test-results/
+
+# Env files
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
