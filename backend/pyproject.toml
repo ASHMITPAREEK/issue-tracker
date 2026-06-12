@@ -1,0 +1,7 @@
+[tool.ruff]
+line-length = 120
+
+[tool.ruff.lint]
+# E402 (module-level import not at top) is intentional in conftest.py:
+# environment variables must be set before `app.main` is imported.
+per-file-ignores = { "app/tests/conftest.py" = ["E402"] }
